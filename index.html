@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DreamBox Creations - Weddings | Commercial | Fashion</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="dreamboxmap.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<meta name="" content="">
+
+<style>
+ 	body, html {
+     margin: 0; 
+     background-color: #213049;
+    }
+    
+	video.instagram, img.instagram {
+		width: 100% !important;
+		height: auto !important;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.insta {
+		margin: 0 !important;
+	}
+	
+	#logo {
+		text-align: center;
+		background-color: black;
+		margin: 0px;
+	}
+	
+	img {
+		max-height: 200px;
+		text-align: center;
+		
+	}
+	
+	.navbar {
+    	text-align: center;
+    	border: 0px;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    }
+    
+    ul {
+        padding: 0px;
+        margin: 0px;
+        background-color: #345791;
+    }
+    
+    li {
+    	display: inline-block;
+    	margin: 4px;
+     
+    }
+    
+    ul li {
+    	border-left: 1px solid #345791;
+    	border-right: 1px solid #345791;
+    }
+    ul li a {
+	    text-decoration: none !important;
+	    font-family: "Raleway", Arial;
+	    font-weight: Bold;
+	    color: #d1d1d1;
+	    padding: 10px 35px;
+    
+    }
+    
+    ul li:hover {
+        
+	     border-left: 1px solid #d1d1d1;
+	     border-right: 1px solid #d1d1d1;
+     
+    }
+    
+   
+    
+    #contact-links {
+    	display: block;
+    	float: right;
+    	width: 75px;
+    }
+    
+    #imgsize {
+      	height: 100%;
+      	vertical-align: middle;
+      	margin-top: 10px;
+    }
+    
+    #map {
+    	height: 100%;
+    }
+    
+    .contact-us {
+    	color: #d1d1d1;
+    	text-align: center;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    	margin-left: 600px;
+    	margin-right: 600px;
+    }
+    
+    #contact1 {
+	    font-style: italic;
+	    font-size: 16px;
+    }
+</style>
+
+</head>
+<body>
+<div id="logo" class="row">
+	<div class="col s10 offset-s1">
+		<img src="Untitled-1.jpg" />
+	</div>
+	<div id="contact-links" class="col s1">
+	
+	<div id="imgsize"><img src="1466681900_linkedin_circle_black.png"/></div>
+		<div id="imgsize"><a href="https://www.facebook.com/DreamBoxC/"><img src="1466682027_facebook_circle_black.png"/></a></div>
+		<div id="imgsize"><a href="https://www.instagram.com/dreamboxcreations/"><img src="1466682097_instagram_circle_black.png"/></a></div>
+	</div>
+</div>
+<div class="navbar">
+    <ul>
+   		 <li>
+            <a href="http://dreamboxcreations.ca/index.html">Home</a>
+        </li>
+         <li>
+            <a href="http://dreamboxcreations.ca/contact_us.html">Contact Us</a>
+        </li>
+        <li>
+            <a href="http://dreamboxcreations.ca/faqs.html">FAQs</a>
+        </li>
+        <li>
+            <a href="http://dreamboxcreations.ca/about_us.html">About Us</a>
+        </li>
+    </ul>
+</div>
+
+
+<div class="insta">
+<video class="instagram" width="612" height="612" autoplay muted loop poster="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14566727_1820950644805159_3724096881718984704_n.jpg?ig_cache_key=MTM1NDUwOTc1NDUyOTMxNTUxOA%3D%3D.2"><source src="http://scontent.cdninstagram.com/t50.2886-16/14613393_1047283932035717_3352472976711745536_n.mp4" type="video/mp4"></video>
+</div>
+
+<div class="contact-us">
+<h1>CONTACT</h1>
+	<p id="contact1">We’d love to hear from you. If you’d like to check availability for your wedding date, or make an appointment to come to us, please drop us a line by phone or email:</p><br />
+	<p><strong>Email: info@dreamboxcreations.ca &nbsp; Phone: (778) 822-6257</strong></p>
+	<p></p>
+</div>
+
+<div class="center-align" style="width:100%; height:500px;">
+    <div class="row" style="width:100%; height:90%;">
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu3vMXL-Ro5mSr5ZQbhlASpDKJsLo7ujc&callback=initMap"
+    async defer></script>
+    </div>
+    </div>
+</body>
+</html>
